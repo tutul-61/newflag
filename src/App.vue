@@ -1,28 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   
+    <TableItem /><br>
+    <TbItem />
+    <TransFrom />
+    <FlexItem />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TableItem from './components/TableItem'
+import TbItem from './components/TbItem'
+import TransFrom from './components/TransFrom'
+import FlexItem from './components/FlexItem'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TableItem,
+    TbItem,
+    TransFrom,
+    FlexItem
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
